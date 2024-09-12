@@ -13,21 +13,25 @@
     justify-content: space-around;
 }
 .header{
-    width: 90vw;
+   width: 1096px;
+   height: 34px;
+   margin-top: 24px;
+   margin-left:16px;
 }
-.logo>img{
-    height: 35px;
-}
+
 .signtext{
-    text-align: center;
-    padding-left: 16px;
-    padding-right:16px;
-    padding-top: 24px ;
-    padding-bottom: 24px ; 
+
+    height: 90px;
+    width:100%;
 }
 .signtext>p{
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
 }
 .box{
     display: flex;
